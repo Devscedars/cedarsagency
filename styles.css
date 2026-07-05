@@ -1130,3 +1130,19 @@ footer {
     background: var(--bg-alt);
   }
 }
+
+.social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.social-links a {
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 600;
+  transition: color .2s;
+}
+
+.social-links a:hover {
+  color: var(--accent);
+}
