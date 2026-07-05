@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<title>Page Not Found — Cedars Agency</title>
+<meta name="robots" content="noindex">
+<meta http-equiv="Content-Security-Policy"
+  content="default-src 'self';
+           style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+           font-src https://fonts.gstatic.com;
+           img-src 'self' data:;
+           script-src 'self';
+           frame-ancestors 'none';
+           base-uri 'self';">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  html[data-theme="light"]{--bg:#FFFFFF;--text:#0F241A;--text-muted:#5C6B60;--accent:#1E8A57;}
+  html[data-theme="dark"]{--bg:#0D1712;--text:#F3F6F1;--text-muted:#93A599;--accent:#34D179;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{touch-action:manipulation;}
+  body{
+    background:var(--bg); color:var(--text); font-family:'Inter',sans-serif;
+    min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:24px;
+  }
+  h1{font-family:'Space Grotesk',sans-serif; font-size:clamp(28px,6vw,44px); margin-bottom:16px;}
+  p{color:var(--text-muted); font-size:16px; margin-bottom:32px; max-width:420px;}
+  a{
+    background:var(--accent); color:#fff; padding:14px 28px; border-radius:2px;
+    text-decoration:none; font-weight:600; font-size:14px; letter-spacing:0.03em; text-transform:uppercase;
+  }
+</style>
+</head>
+<body>
+  <h1>404 — Page not found</h1>
+  <p>This page doesn't exist. It might have moved, or the link may be outdated.</p>
+  <a href="/">Back to Cedars Agency</a>
+  <script>
+    // Match whatever theme the visitor would see on the main site,
+    // so this page doesn't jarringly mismatch light/dark mode.
+    (function(){
+      var hour = new Date().getHours();
+      var theme = (hour >= 6 && hour < 18) ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "Cedars Agency",
+  "short_name": "Cedars Agency",
+  "description": "Marketing and creative studio in Lebanon — social, ads, websites, and content.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1E8A57",
+  "icons": [
+    {
+      "src": "logo/cedars-icon.png",
+      "sizes": "340x190",
+      "type": "image/png"
+    }
+  ]
+}
