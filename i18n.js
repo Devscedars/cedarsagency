@@ -16,23 +16,23 @@ const TRANSLATIONS = {
     toggle_theme: "Theme",
 
     hero_eyebrow: "Marketing & Creative Studio",
-    hero_h1_line1: "Rooted in Lebanon.",
-    hero_h1_line2: "Built to",
-    hero_h1_accent: "grow.",
-    hero_sub: "Cedars Agency runs your social, ads, websites, and content — shot, edited, and launched by one team. No hand-offs, no static.",
+    hero_h1_line1: "Your vision.",
+    hero_h1_line2: "Our",
+    hero_h1_accent: "Strategy.",
+    hero_sub: "Cedars Agency runs your social, ads, websites, and content  shot, edited, and launched by one team. No hand-offs, no static.",
     see_packages: "See Packages",
     what_we_do: "What We Do",
 
     services_eyebrow: "Services",
     services_h2: "Six channels. One studio.",
-    services_p: "Tune into whichever channel your brand needs — or run all six together for a single, consistent signal.",
+    services_p: "Tune into whichever channel your brand needs  or run all six together for a single, consistent signal.",
 
     ch1_title: "Meta & Social",
     ch1_desc: "Profile setup, content calendars, and day-to-day community management across Instagram and Facebook.",
     ch2_title: "Websites & Landing Pages",
     ch2_desc: "Fast, mobile-first sites and campaign landing pages, built to convert visitors into customers.",
     ch3_title: "Ads & Boosts",
-    ch3_desc: "Meta and Google Ads — audience targeting, budget management, and boosted posts, optimized weekly.",
+    ch3_desc: "Meta and Google Ads  audience targeting, budget management, and boosted posts, optimized weekly.",
     ch4_title: "Photo & Video Shooting",
     ch4_desc: "On-site production for products, spaces, events, and short-form content.",
     ch5_title: "Editing & Post-Production",
@@ -49,14 +49,14 @@ const TRANSLATIONS = {
     proc3_title: "Broadcast",
     proc3_desc: "Campaigns go live across your chosen channels, tracked from day one.",
     proc4_title: "Tune Up",
-    proc4_desc: "Monthly reporting and optimization — we adjust based on what's working.",
+    proc4_desc: "Monthly reporting and optimization we adjust based on what's working.",
 
     clients_eyebrow: "Our Clients",
     clients_h2: "Growing with Cedars Agency",
     clients_p: "A few of the brands we've built pages, campaigns, and content for.",
     client_tag: "CLIENT",
     client_name: "Client Name",
-    client_desc: "Short one-line description of the work — website, ads, or content.",
+    client_desc: "Short one-line description of the work website, ads, or content.",
     client_link: "Visit page →",
 
     pricing_eyebrow: "Pricing",
@@ -89,7 +89,7 @@ const TRANSLATIONS = {
     premium_f4: "Email marketing setup",
     premium_f5: "Bi-weekly strategy calls",
 
-    pricing_note: "Starting rates — customize to fit your market. Setup fees apply for branding and full website builds.",
+    pricing_note: "Starting rates customize to fit your market. Setup fees apply for branding and full website builds.",
 
     contact_h2: "Ready to grow with us?",
     contact_p: "Message us on WhatsApp for the fastest reply, or send an email below.",
@@ -102,7 +102,7 @@ const TRANSLATIONS = {
 
     feedback_eyebrow: "Feedback",
     feedback_h2: "Working with us? Tell us how it's going.",
-    feedback_p: "Quick feedback helps us improve — takes under a minute.",
+    feedback_p: "Quick feedback helps us improve , takes under a minute.",
     company_optional: "Company (optional)",
     rate_experience: "Rate your experience:",
     feedback_placeholder: "What's working well? What could be better?",
@@ -112,7 +112,7 @@ const TRANSLATIONS = {
   },
 
   ar: {
-    brand: "وكالة الأرز",
+    brand: "CEDARS AGENCY",
     nav_services: "الخدمات",
     nav_clients: "عملاؤنا",
     nav_pricing: "الأسعار",
@@ -121,23 +121,23 @@ const TRANSLATIONS = {
     toggle_theme: "المظهر",
 
     hero_eyebrow: "استوديو تسويق وإبداع",
-    hero_h1_line1: "متجذرون في لبنان.",
-    hero_h1_line2: "نبني لتكبر",
-    hero_h1_accent: "علامتك.",
-    hero_sub: "وكالة الأرز تدير حساباتك الاجتماعية، إعلاناتك، موقعك، ومحتواك — تصوير وتعديل وإطلاق بفريق واحد. بلا تسليم بين فرق متعددة، وبلا تشويش.",
+    hero_h1_line1: "رؤيتكم",
+    hero_h1_line2: "،",
+    hero_h1_accent: "استراتيجيتنا.",
+    hero_sub: "CEDARS AGENCY تدير حساباتك الاجتماعية، إعلاناتك، موقعك، ومحتواك  تصوير وتعديل وإطلاق بفريق واحد. بلا تسليم بين فرق متعددة، وبلا تشويش.",
     see_packages: "شاهد الباقات",
     what_we_do: "ماذا نقدّم",
 
     services_eyebrow: "الخدمات",
-    services_h2: "ست قنوات. استوديو واحد.",
-    services_p: "اختر القناة التي تحتاجها علامتك التجارية — أو فعّل الست معًا لصوت واحد متكامل.",
+    services_h2: "ست قنوات استوديو واحد.",
+    services_p: "اختر القناة التي تحتاجها علامتك التجارية  أو فعّل الست معًا لصوت واحد متكامل.",
 
     ch1_title: "ميتا والسوشيال ميديا",
     ch1_desc: "إعداد الحسابات، تقويم المحتوى، وإدارة التفاعل مع المتابعين على إنستغرام وفيسبوك.",
     ch2_title: "المواقع وصفحات الهبوط",
     ch2_desc: "تصميم وبناء مواقع سريعة تناسب الهاتف، وصفحات هبوط للحملات الإعلانية.",
     ch3_title: "الإعلانات والمنشورات المعزّزة",
-    ch3_desc: "إعلانات ميتا وجوجل — استهداف الجمهور، إدارة الميزانية، وتعزيز المنشورات مع تحسين أسبوعي.",
+    ch3_desc: "إعلانات ميتا وجوجل  استهداف الجمهور، إدارة الميزانية، وتعزيز المنشورات مع تحسين أسبوعي.",
     ch4_title: "تصوير فوتوغرافي وفيديو",
     ch4_desc: "تصوير في الموقع للمنتجات، الأماكن، الفعاليات، والمحتوى القصير.",
     ch5_title: "المونتاج والمعالجة النهائية",
@@ -154,14 +154,14 @@ const TRANSLATIONS = {
     proc3_title: "نبثّ",
     proc3_desc: "تنطلق الحملات على القنوات التي تختارها، مع تتبّع من اليوم الأول.",
     proc4_title: "نطوّر",
-    proc4_desc: "تقارير شهرية وتحسين مستمر — نعدّل حسب ما ينجح فعليًا.",
+    proc4_desc: "تقارير شهرية وتحسين مستمر  نعدّل حسب ما ينجح فعليًا.",
 
     clients_eyebrow: "عملاؤنا",
-    clients_h2: "علامات نمت مع وكالة الأرز",
+    clients_h2: "علامات نمت مع CEDARS AGENCY",
     clients_p: "بعض العلامات التجارية التي بنينا لها مواقع، حملات، ومحتوى.",
     client_tag: "عميل",
     client_name: "اسم العميل",
-    client_desc: "وصف قصير للعمل — موقع، إعلانات، أو محتوى.",
+    client_desc: "وصف قصير للعمل موقع، إعلانات، أو محتوى.",
     client_link: "زيارة الصفحة ←",
 
     pricing_eyebrow: "الأسعار",
@@ -194,9 +194,9 @@ const TRANSLATIONS = {
     premium_f4: "إعداد التسويق عبر البريد الإلكتروني",
     premium_f5: "مكالمات استراتيجية كل أسبوعين",
 
-    pricing_note: "أسعار أوّلية — عدّلها بما يناسب سوقك. تُضاف رسوم تأسيس للهوية البصرية والمواقع الكاملة.",
+    pricing_note: "أسعار أوّلية عدّلها بما يناسب سوقك. تُضاف رسوم تأسيس للهوية البصرية والمواقع الكاملة.",
 
-    contact_h2: "جاهزون تنمو مع وكالة الأرز؟",
+    contact_h2: "جاهزون تنمو مع CEDARS AGENCY؟",
     contact_p: "راسلنا على واتساب لأسرع رد، أو أرسل بريدًا إلكترونيًا في الأسفل.",
     message_whatsapp: "راسلنا على واتساب",
     or_email: "أو راسلنا بالبريد الإلكتروني",
@@ -207,13 +207,13 @@ const TRANSLATIONS = {
 
     feedback_eyebrow: "ملاحظاتكم",
     feedback_h2: "تعملون معنا؟ أخبرونا كيف تسير الأمور.",
-    feedback_p: "ملاحظاتكم السريعة تساعدنا على التحسّن — تستغرق أقل من دقيقة.",
+    feedback_p: "ملاحظاتكم السريعة تساعدنا على التحسّن تستغرق أقل من دقيقة.",
     company_optional: "الشركة (اختياري)",
     rate_experience: "قيّم تجربتك:",
     feedback_placeholder: "ما الذي يسير بشكل جيد؟ وما الذي يمكن تحسينه؟",
     send_feedback: "إرسال الملاحظات",
 
-    footer_text: "© 2026 وكالة الأرز. تسويق وإبداع.",
+    footer_text: "© 2026 CEDARS AGENCY. تسويق وإبداع.",
   },
 };
 
