@@ -143,6 +143,9 @@ nav {
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
   transition: background .4s ease, border-color .4s ease;
+  overflow: hidden;
+  /* nav is position:fixed, so html/body's overflow-x:hidden can't contain it — this can */
+  max-width: 100vw;
 }
 
 .logo {
@@ -152,6 +155,15 @@ nav {
   align-items: center;
   gap: 10px;
   white-space: nowrap;
+  min-width: 0;
+  /* allows this flex child to shrink instead of forcing nav wider than the screen */
+  overflow: hidden;
+}
+
+.logo span[data-i18n="brand"] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
 }
 
 .logo-mark {
@@ -549,6 +561,23 @@ html[dir="rtl"] .hero h1 .accent {
 
 .cedar-trunk-r {
   fill: var(--cedar-light);
+}
+
+/* ============================================================
+   DEFENSIVE OVERFLOW CONTAINMENT
+   Belt-and-suspenders fix for a real (non-bounce) horizontal
+   scroll that only shows up on real phones in Arabic mode and
+   can't be reproduced on desktop. Rather than hunt for one exact
+   element, clip overflow at every major layout container so
+   nothing inside them — regardless of cause — can force the
+   page wider than the screen.
+============================================================= */
+header,
+main,
+footer,
+section {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* section shared */
