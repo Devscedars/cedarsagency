@@ -88,37 +88,7 @@ a {
   color: var(--accent-contrast);
 }
 
-/* ============================================================
-   ARABIC / RTL SUPPORT
-============================================================= */
-html[dir="rtl"] body,
-html[dir="rtl"] h1,
-html[dir="rtl"] h2,
-html[dir="rtl"] h3,
-html[dir="rtl"] .tier-price,
-html[dir="rtl"] .tier-label {
-  font-family: 'IBM Plex Sans Arabic', 'Inter', sans-serif;
-  letter-spacing: 0;
-}
 
-html[dir="rtl"] .hero-eyebrow::before {
-  margin-inline-end: 0;
-}
-
-html[dir="rtl"] .tier-badge {
-  left: auto;
-  right: 30px;
-}
-
-html[dir="rtl"] .channel-arrow,
-html[dir="rtl"] .client-link {
-  transform: scaleX(-1);
-  display: inline-block;
-}
-
-html[dir="rtl"] .tier-features li::before {
-  content: '—';
-}
 
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -400,13 +370,9 @@ html[data-theme="dark"] .theme-icon {
   line-height: 1.6;
 }
 
-html[dir="rtl"] .hero h1 {
-  font-style: normal;
-}
 
-html[dir="rtl"] .hero h1 .accent {
-  font-style: normal;
-}
+
+
 
 .hero-actions {
   display: flex;
@@ -850,9 +816,7 @@ section {
   font-style: italic;
 }
 
-html[dir="rtl"] .tier-desc {
-  font-style: normal;
-}
+
 
 .tier.featured .tier-desc {
   color: var(--accent-contrast);
@@ -1001,10 +965,7 @@ textarea {
   transition: border-color .2s;
 }
 
-html[dir="rtl"] input,
-html[dir="rtl"] textarea {
-  font-family: 'IBM Plex Sans Arabic', 'Inter', sans-serif;
-}
+
 
 input:focus,
 textarea:focus {
