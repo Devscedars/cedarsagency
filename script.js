@@ -33,6 +33,40 @@
   }
 
   // ----------------------------------------------------------
+  // Preloader — fades out once the page has fully loaded.
+  // Enforces a minimum display time so it doesn't just flash
+  // on fast connections, then removes itself from the DOM.
+  // ----------------------------------------------------------
+  function initPreloader() {
+    const preloader = document.getElementById("preloader");
+    if (!preloader) {
+      document.documentElement.classList.remove("is-loading");
+      return;
+    }
+
+    const MIN_VISIBLE_MS = 1000;
+    const shownAt = Date.now();
+
+    function hide() {
+      const elapsed = Date.now() - shownAt;
+      const wait = Math.max(0, MIN_VISIBLE_MS - elapsed);
+      setTimeout(() => {
+        document.documentElement.classList.remove("is-loading");
+        preloader.classList.add("preloader-hidden");
+        preloader.addEventListener("transitionend", () => preloader.remove(), { once: true });
+        // Fallback in case transitionend never fires (e.g. reduced-motion 0ms duration)
+        setTimeout(() => preloader.remove(), 700);
+      }, wait);
+    }
+
+    if (document.readyState === "complete") {
+      hide();
+    } else {
+      window.addEventListener("load", hide, { once: true });
+    }
+  }
+
+  // ----------------------------------------------------------
   // Mobile menu toggle
   // ----------------------------------------------------------
   function initMobileMenu() {
@@ -187,6 +221,7 @@
   }
 
   document.addEventListener("DOMContentLoaded", () => {
+    initPreloader();
     initWhatsAppLinks();
     initMobileMenu();
     initScrollReveal();

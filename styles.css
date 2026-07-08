@@ -98,6 +98,78 @@ a {
   }
 }
 
+/* ============================================================
+   PRELOADER — full-screen splash shown while the page loads.
+   Pure CSS animation; script.js fades it out and removes it
+   from the DOM once the window has finished loading.
+============================================================= */
+html.is-loading,
+html.is-loading body {
+  overflow: hidden;
+}
+
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  transition: opacity .5s ease, visibility .5s ease;
+}
+
+#preloader.preloader-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.preloader-inner {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preloader-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 3px solid var(--line);
+  border-top-color: var(--accent);
+  animation: preloader-spin 0.9s linear infinite;
+}
+
+.preloader-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  animation: preloader-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes preloader-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(0.88);
+    opacity: 0.7;
+  }
+}
+
 /* NAV */
 nav {
   position: fixed;

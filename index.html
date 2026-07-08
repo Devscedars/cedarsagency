@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" class="is-loading">
 
 <head>
   <meta charset="UTF-8">
@@ -77,9 +77,22 @@
     href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <noscript>
+    <style>
+      #preloader { display: none !important; }
+      html.is-loading, html.is-loading body { overflow: auto !important; }
+    </style>
+  </noscript>
 </head>
 
 <body>
+
+  <div id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <span class="preloader-ring"></span>
+      <img class="preloader-logo" src="logo/cedars-logo.png" alt="">
+    </div>
+  </div>
 
   <header>
     <nav>
